@@ -6,7 +6,7 @@
 /*   By: fomanca <fomanca@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/22 18:53:05 by fomanca           #+#    #+#             */
-/*   Updated: 2025/10/22 21:21:39 by fomanca          ###   ########.fr       */
+/*   Updated: 2025/11/06 15:34:23 by fomanca          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,8 @@
 
 int	main(void)
 {
-	int fd = open("tests/dracula.txt", O_RDONLY);
+	int fd = open("tests/bleach.txt", O_RDONLY);
+	//int fd = open("tests/dracula.txt", O_RDONLY);
 	//int fd = open("tests/empty_test.txt", O_RDONLY);
 	//int fd = open("tests/hhgttg.txt", O_RDONLY);
 	//int fd = open("tests/large_file.txt", O_RDONLY);
